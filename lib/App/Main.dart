@@ -6,6 +6,11 @@ class MyApp extends StatelessWidget{
      appBar :  AppBar(
       title: Center(child: Text("Nihareeka College"),) ,
     ),
+    floatingActionButton: IconButton(
+      icon: Icon(Icons.add_circle ,  color: Colors.lightBlueAccent,),
+      iconSize: 70,
+      onPressed: ()=>{Navigator.pushNamed(context, "/Note")},
+    ),
     body: ListView(
          shrinkWrap: true,
       children: <Widget>[

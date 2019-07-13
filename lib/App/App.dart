@@ -5,6 +5,7 @@ import './BBA.dart';
 import './BIM.dart';
 import './BCA.dart';
 import './Main.dart';
+import './Note.dart';
 class App extends StatelessWidget {
   @override
   Widget build (BuildContext context){
@@ -19,6 +20,7 @@ class App extends StatelessWidget {
       '/BBA' : (context)=>BBA(),
       '/BIM' : (context)=>BIM(),
       '/BCA' : (context)=>BCA(),
+      '/Note' : (context)=>Note(),
     },
   );
   }
